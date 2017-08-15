@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4283ED1F24D7B800275C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4283EC1F24D7B800275C01 /* main.m */; };
+		EA4283F01F24D7B800275C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4283EF1F24D7B800275C01 /* AppDelegate.m */; };
+		EA4283F31F24D7B800275C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4283F21F24D7B800275C01 /* ViewController.m */; };
+		EA4283F61F24D7B800275C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4283F41F24D7B800275C01 /* Main.storyboard */; };
+		EA4283F81F24D7B800275C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4283F71F24D7B800275C01 /* Assets.xcassets */; };
+		EA4283FB1F24D7B800275C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4283F91F24D7B800275C01 /* LaunchScreen.storyboard */; };
+		EA4284041F24D8C200275C01 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284031F24D8C200275C01 /* HomeTableViewController.m */; };
+		EA4284081F24D96B00275C01 /* ResultInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284061F24D96B00275C01 /* ResultInputViewController.m */; };
+		EA4284091F24D96B00275C01 /* ResultInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4284071F24D96B00275C01 /* ResultInputViewController.xib */; };
+		EA4284171F24DB2400275C01 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EA42840D1F24DB2400275C01 /* FMDatabase.m */; };
+		EA4284181F24DB2400275C01 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA42840F1F24DB2400275C01 /* FMDatabaseAdditions.m */; };
+		EA4284191F24DB2400275C01 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284111F24DB2400275C01 /* FMDatabasePool.m */; };
+		EA42841A1F24DB2400275C01 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284131F24DB2400275C01 /* FMDatabaseQueue.m */; };
+		EA42841B1F24DB2400275C01 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284161F24DB2400275C01 /* FMResultSet.m */; };
+		EA42841E1F24DB3900275C01 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA42841D1F24DB3900275C01 /* libsqlite3.0.tbd */; };
+		EA4284211F24DB9D00275C01 /* StudentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284201F24DB9D00275C01 /* StudentResult.m */; };
+		EA4284241F24E8E300275C01 /* CourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284231F24E8E300275C01 /* CourseTableViewController.m */; };
+		EA4284271F24E94F00275C01 /* StudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284261F24E94F00275C01 /* StudentsTableViewController.m */; };
+		EA42842A1F24EF5E00275C01 /* CoursesAndGradesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4284291F24EF5E00275C01 /* CoursesAndGradesTableViewController.m */; };
+		EA42842D1F24F54100275C01 /* StudentsAndScoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA42842C1F24F54100275C01 /* StudentsAndScoresTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA4283E81F24D7B800275C01 /* HomeworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4283EC1F24D7B800275C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA4283EE1F24D7B800275C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA4283EF1F24D7B800275C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA4283F11F24D7B800275C01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA4283F21F24D7B800275C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA4283F51F24D7B800275C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4283F71F24D7B800275C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4283FA1F24D7B800275C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4283FC1F24D7B800275C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4284021F24D8C200275C01 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		EA4284031F24D8C200275C01 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		EA4284051F24D96B00275C01 /* ResultInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultInputViewController.h; sourceTree = "<group>"; };
+		EA4284061F24D96B00275C01 /* ResultInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultInputViewController.m; sourceTree = "<group>"; };
+		EA4284071F24D96B00275C01 /* ResultInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultInputViewController.xib; sourceTree = "<group>"; };
+		EA42840C1F24DB2400275C01 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EA42840D1F24DB2400275C01 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EA42840E1F24DB2400275C01 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EA42840F1F24DB2400275C01 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EA4284101F24DB2400275C01 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EA4284111F24DB2400275C01 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EA4284121F24DB2400275C01 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EA4284131F24DB2400275C01 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EA4284141F24DB2400275C01 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EA4284151F24DB2400275C01 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EA4284161F24DB2400275C01 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EA42841D1F24DB3900275C01 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EA42841F1F24DB9D00275C01 /* StudentResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentResult.h; sourceTree = "<group>"; };
+		EA4284201F24DB9D00275C01 /* StudentResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentResult.m; sourceTree = "<group>"; };
+		EA4284221F24E8E300275C01 /* CourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseTableViewController.h; sourceTree = "<group>"; };
+		EA4284231F24E8E300275C01 /* CourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseTableViewController.m; sourceTree = "<group>"; };
+		EA4284251F24E94F00275C01 /* StudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsTableViewController.h; sourceTree = "<group>"; };
+		EA4284261F24E94F00275C01 /* StudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsTableViewController.m; sourceTree = "<group>"; };
+		EA4284281F24EF5E00275C01 /* CoursesAndGradesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesAndGradesTableViewController.h; sourceTree = "<group>"; };
+		EA4284291F24EF5E00275C01 /* CoursesAndGradesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesAndGradesTableViewController.m; sourceTree = "<group>"; };
+		EA42842B1F24F54100275C01 /* StudentsAndScoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsAndScoresTableViewController.h; sourceTree = "<group>"; };
+		EA42842C1F24F54100275C01 /* StudentsAndScoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsAndScoresTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4283E51F24D7B800275C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA42841E1F24DB3900275C01 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4283DF1F24D7B800275C01 = {
+			isa = PBXGroup;
+			children = (
+				EA4283EA1F24D7B800275C01 /* HomeworkDemo */,
+				EA4283E91F24D7B800275C01 /* Products */,
+				EA42841C1F24DB3900275C01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4283E91F24D7B800275C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4283E81F24D7B800275C01 /* HomeworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4283EA1F24D7B800275C01 /* HomeworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA42840A1F24DB1200275C01 /* Vendors */,
+				EA4283EE1F24D7B800275C01 /* AppDelegate.h */,
+				EA4283EF1F24D7B800275C01 /* AppDelegate.m */,
+				EA4283F11F24D7B800275C01 /* ViewController.h */,
+				EA4283F21F24D7B800275C01 /* ViewController.m */,
+				EA4284221F24E8E300275C01 /* CourseTableViewController.h */,
+				EA4284231F24E8E300275C01 /* CourseTableViewController.m */,
+				EA4284251F24E94F00275C01 /* StudentsTableViewController.h */,
+				EA4284261F24E94F00275C01 /* StudentsTableViewController.m */,
+				EA4284281F24EF5E00275C01 /* CoursesAndGradesTableViewController.h */,
+				EA4284291F24EF5E00275C01 /* CoursesAndGradesTableViewController.m */,
+				EA42842B1F24F54100275C01 /* StudentsAndScoresTableViewController.h */,
+				EA42842C1F24F54100275C01 /* StudentsAndScoresTableViewController.m */,
+				EA4284021F24D8C200275C01 /* HomeTableViewController.h */,
+				EA4284031F24D8C200275C01 /* HomeTableViewController.m */,
+				EA4284051F24D96B00275C01 /* ResultInputViewController.h */,
+				EA4284061F24D96B00275C01 /* ResultInputViewController.m */,
+				EA4284071F24D96B00275C01 /* ResultInputViewController.xib */,
+				EA42841F1F24DB9D00275C01 /* StudentResult.h */,
+				EA4284201F24DB9D00275C01 /* StudentResult.m */,
+				EA4283F41F24D7B800275C01 /* Main.storyboard */,
+				EA4283F71F24D7B800275C01 /* Assets.xcassets */,
+				EA4283F91F24D7B800275C01 /* LaunchScreen.storyboard */,
+				EA4283FC1F24D7B800275C01 /* Info.plist */,
+				EA4283EB1F24D7B800275C01 /* Supporting Files */,
+			);
+			path = HomeworkDemo;
+			sourceTree = "<group>";
+		};
+		EA4283EB1F24D7B800275C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4283EC1F24D7B800275C01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA42840A1F24DB1200275C01 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				EA42840B1F24DB2400275C01 /* fmdb */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		EA42840B1F24DB2400275C01 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EA42840C1F24DB2400275C01 /* FMDatabase.h */,
+				EA42840D1F24DB2400275C01 /* FMDatabase.m */,
+				EA42840E1F24DB2400275C01 /* FMDatabaseAdditions.h */,
+				EA42840F1F24DB2400275C01 /* FMDatabaseAdditions.m */,
+				EA4284101F24DB2400275C01 /* FMDatabasePool.h */,
+				EA4284111F24DB2400275C01 /* FMDatabasePool.m */,
+				EA4284121F24DB2400275C01 /* FMDatabaseQueue.h */,
+				EA4284131F24DB2400275C01 /* FMDatabaseQueue.m */,
+				EA4284141F24DB2400275C01 /* FMDB.h */,
+				EA4284151F24DB2400275C01 /* FMResultSet.h */,
+				EA4284161F24DB2400275C01 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		EA42841C1F24DB3900275C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA42841D1F24DB3900275C01 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4283E71F24D7B800275C01 /* HomeworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4283FF1F24D7B800275C01 /* Build configuration list for PBXNativeTarget "HomeworkDemo" */;
+			buildPhases = (
+				EA4283E41F24D7B800275C01 /* Sources */,
+				EA4283E51F24D7B800275C01 /* Frameworks */,
+				EA4283E61F24D7B800275C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeworkDemo;
+			productName = HomeworkDemo;
+			productReference = EA4283E81F24D7B800275C01 /* HomeworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4283E01F24D7B800275C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hmyy;
+				TargetAttributes = {
+					EA4283E71F24D7B800275C01 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA4283E31F24D7B800275C01 /* Build configuration list for PBXProject "HomeworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4283DF1F24D7B800275C01;
+			productRefGroup = EA4283E91F24D7B800275C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4283E71F24D7B800275C01 /* HomeworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4283E61F24D7B800275C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4284091F24D96B00275C01 /* ResultInputViewController.xib in Resources */,
+				EA4283FB1F24D7B800275C01 /* LaunchScreen.storyboard in Resources */,
+				EA4283F81F24D7B800275C01 /* Assets.xcassets in Resources */,
+				EA4283F61F24D7B800275C01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4283E41F24D7B800275C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4284211F24DB9D00275C01 /* StudentResult.m in Sources */,
+				EA4284041F24D8C200275C01 /* HomeTableViewController.m in Sources */,
+				EA4283F31F24D7B800275C01 /* ViewController.m in Sources */,
+				EA4284081F24D96B00275C01 /* ResultInputViewController.m in Sources */,
+				EA4284271F24E94F00275C01 /* StudentsTableViewController.m in Sources */,
+				EA42842D1F24F54100275C01 /* StudentsAndScoresTableViewController.m in Sources */,
+				EA4284171F24DB2400275C01 /* FMDatabase.m in Sources */,
+				EA42841B1F24DB2400275C01 /* FMResultSet.m in Sources */,
+				EA4284241F24E8E300275C01 /* CourseTableViewController.m in Sources */,
+				EA4283F01F24D7B800275C01 /* AppDelegate.m in Sources */,
+				EA4284191F24DB2400275C01 /* FMDatabasePool.m in Sources */,
+				EA42842A1F24EF5E00275C01 /* CoursesAndGradesTableViewController.m in Sources */,
+				EA4284181F24DB2400275C01 /* FMDatabaseAdditions.m in Sources */,
+				EA4283ED1F24D7B800275C01 /* main.m in Sources */,
+				EA42841A1F24DB2400275C01 /* FMDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA4283F41F24D7B800275C01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4283F51F24D7B800275C01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA4283F91F24D7B800275C01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4283FA1F24D7B800275C01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4283FD1F24D7B800275C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4283FE1F24D7B800275C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4284001F24D7B800275C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HomeworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EndlessJoy.HomeworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA4284011F24D7B800275C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HomeworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EndlessJoy.HomeworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4283E31F24D7B800275C01 /* Build configuration list for PBXProject "HomeworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4283FD1F24D7B800275C01 /* Debug */,
+				EA4283FE1F24D7B800275C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4283FF1F24D7B800275C01 /* Build configuration list for PBXNativeTarget "HomeworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4284001F24D7B800275C01 /* Debug */,
+				EA4284011F24D7B800275C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4283E01F24D7B800275C01 /* Project object */;
+}

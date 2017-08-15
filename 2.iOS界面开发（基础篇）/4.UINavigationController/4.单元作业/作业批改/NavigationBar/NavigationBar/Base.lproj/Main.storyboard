@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZsA-mp-ftw">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cnl-A9-SUa">
+                                <rect key="frame" x="155" y="318" width="65" height="30"/>
+                                <state key="normal" title="NextView"/>
+                                <connections>
+                                    <segue destination="Czu-eB-70H" kind="show" id="cFT-MP-kou"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Cnl-A9-SUa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CRY-vX-cwX"/>
+                            <constraint firstItem="Cnl-A9-SUa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FGd-6H-ned"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="2j4-zU-91S" appends="YES" id="5RI-Gp-Fb2"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ueh-ru-2Ve">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" image="扫一扫" id="BwN-qR-SPW">
+                            <inset key="imageInsets" minX="-6" minY="0.0" maxX="-6" maxY="0.0"/>
+                            <color key="tintColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="scan:" destination="BYZ-38-t0r" id="eL3-wF-UvR"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="消息中心入口" id="2on-gk-csq">
+                            <color key="tintColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="message:" destination="BYZ-38-t0r" id="FHf-Ph-uXk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="2j4-zU-91S">
+                    <connections>
+                        <action selector="tapOnView:" destination="BYZ-38-t0r" id="ocA-dT-Jr2"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1001" y="673"/>
+        </scene>
+        <!--美食-饮料清仓专场-->
+        <scene sceneID="j8h-vV-EBK">
+            <objects>
+                <viewController id="Czu-eB-70H" customClass="NextViewController" customModule="NavigationBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SPg-n9-LWc"/>
+                        <viewControllerLayoutGuide type="bottom" id="X8G-Nk-NMR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RBG-Bx-685">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="美食-饮料清仓专场" id="WPE-ci-j8q">
+                        <leftBarButtonItems>
+                            <barButtonItem image="back" id="6xK-uw-bA2">
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="tapBackButton:" destination="Czu-eB-70H" id="6Ei-yz-FhH"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="关闭按钮" id="uhA-Wg-CTO">
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="close:" destination="Czu-eB-70H" id="Jqx-hD-vXK"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" image="分享" id="mux-3O-wRh">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="share:" destination="Czu-eB-70H" id="kcl-tu-yhg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgg-po-fpR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1633" y="674"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OcP-Y4-2ht">
+            <objects>
+                <navigationController id="ZsA-mp-ftw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RAN-8b-q6W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="T8o-Hx-AeB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJO-Zp-C66" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="674"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="30" height="30"/>
+        <image name="关闭按钮" width="14" height="14"/>
+        <image name="分享" width="14" height="18"/>
+        <image name="扫一扫" width="22" height="22"/>
+        <image name="消息中心入口" width="20" height="20"/>
+    </resources>
+</document>

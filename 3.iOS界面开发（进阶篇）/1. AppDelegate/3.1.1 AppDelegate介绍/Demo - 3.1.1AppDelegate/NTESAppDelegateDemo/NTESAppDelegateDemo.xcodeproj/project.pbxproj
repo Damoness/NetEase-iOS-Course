@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C7A2841D9A81F8000D9710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C7A2831D9A81F8000D9710 /* main.m */; };
+		12C7A2871D9A81F8000D9710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C7A2861D9A81F8000D9710 /* AppDelegate.m */; };
+		12C7A28A1D9A81F8000D9710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C7A2891D9A81F8000D9710 /* ViewController.m */; };
+		12C7A28D1D9A81F8000D9710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C7A28B1D9A81F8000D9710 /* Main.storyboard */; };
+		12C7A28F1D9A81F8000D9710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C7A28E1D9A81F8000D9710 /* Assets.xcassets */; };
+		12C7A2921D9A81F8000D9710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C7A2901D9A81F8000D9710 /* LaunchScreen.storyboard */; };
+		12C7A29B1D9AA53C000D9710 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C7A29A1D9AA53C000D9710 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12C7A27F1D9A81F8000D9710 /* NTESAppDelegateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTESAppDelegateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C7A2831D9A81F8000D9710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12C7A2851D9A81F8000D9710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12C7A2861D9A81F8000D9710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12C7A2881D9A81F8000D9710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12C7A2891D9A81F8000D9710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12C7A28C1D9A81F8000D9710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12C7A28E1D9A81F8000D9710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C7A2911D9A81F8000D9710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C7A2931D9A81F8000D9710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C7A2991D9AA53C000D9710 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		12C7A29A1D9AA53C000D9710 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C7A27C1D9A81F8000D9710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C7A2761D9A81F8000D9710 = {
+			isa = PBXGroup;
+			children = (
+				12C7A2811D9A81F8000D9710 /* NTESAppDelegateDemo */,
+				12C7A2801D9A81F8000D9710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C7A2801D9A81F8000D9710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C7A27F1D9A81F8000D9710 /* NTESAppDelegateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C7A2811D9A81F8000D9710 /* NTESAppDelegateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12C7A2851D9A81F8000D9710 /* AppDelegate.h */,
+				12C7A2861D9A81F8000D9710 /* AppDelegate.m */,
+				12C7A2881D9A81F8000D9710 /* ViewController.h */,
+				12C7A2891D9A81F8000D9710 /* ViewController.m */,
+				12C7A28B1D9A81F8000D9710 /* Main.storyboard */,
+				12C7A28E1D9A81F8000D9710 /* Assets.xcassets */,
+				12C7A2901D9A81F8000D9710 /* LaunchScreen.storyboard */,
+				12C7A2931D9A81F8000D9710 /* Info.plist */,
+				12C7A2821D9A81F8000D9710 /* Supporting Files */,
+				12C7A2991D9AA53C000D9710 /* TestViewController.h */,
+				12C7A29A1D9AA53C000D9710 /* TestViewController.m */,
+			);
+			path = NTESAppDelegateDemo;
+			sourceTree = "<group>";
+		};
+		12C7A2821D9A81F8000D9710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12C7A2831D9A81F8000D9710 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C7A27E1D9A81F8000D9710 /* NTESAppDelegateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C7A2961D9A81F8000D9710 /* Build configuration list for PBXNativeTarget "NTESAppDelegateDemo" */;
+			buildPhases = (
+				12C7A27B1D9A81F8000D9710 /* Sources */,
+				12C7A27C1D9A81F8000D9710 /* Frameworks */,
+				12C7A27D1D9A81F8000D9710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTESAppDelegateDemo;
+			productName = NTESAppDelegateDemo;
+			productReference = 12C7A27F1D9A81F8000D9710 /* NTESAppDelegateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C7A2771D9A81F8000D9710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NetEase;
+				TargetAttributes = {
+					12C7A27E1D9A81F8000D9710 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 12C7A27A1D9A81F8000D9710 /* Build configuration list for PBXProject "NTESAppDelegateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C7A2761D9A81F8000D9710;
+			productRefGroup = 12C7A2801D9A81F8000D9710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C7A27E1D9A81F8000D9710 /* NTESAppDelegateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C7A27D1D9A81F8000D9710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C7A2921D9A81F8000D9710 /* LaunchScreen.storyboard in Resources */,
+				12C7A28F1D9A81F8000D9710 /* Assets.xcassets in Resources */,
+				12C7A28D1D9A81F8000D9710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C7A27B1D9A81F8000D9710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C7A28A1D9A81F8000D9710 /* ViewController.m in Sources */,
+				12C7A2871D9A81F8000D9710 /* AppDelegate.m in Sources */,
+				12C7A29B1D9AA53C000D9710 /* TestViewController.m in Sources */,
+				12C7A2841D9A81F8000D9710 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12C7A28B1D9A81F8000D9710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C7A28C1D9A81F8000D9710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C7A2901D9A81F8000D9710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C7A2911D9A81F8000D9710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C7A2941D9A81F8000D9710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12C7A2951D9A81F8000D9710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C7A2971D9A81F8000D9710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTESAppDelegateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.NTESAppDelegateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12C7A2981D9A81F8000D9710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTESAppDelegateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.NTESAppDelegateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C7A27A1D9A81F8000D9710 /* Build configuration list for PBXProject "NTESAppDelegateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C7A2941D9A81F8000D9710 /* Debug */,
+				12C7A2951D9A81F8000D9710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C7A2961D9A81F8000D9710 /* Build configuration list for PBXNativeTarget "NTESAppDelegateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C7A2971D9A81F8000D9710 /* Debug */,
+				12C7A2981D9A81F8000D9710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C7A2771D9A81F8000D9710 /* Project object */;
+}

@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1222A1171D715DB400CD286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1222A1161D715DB400CD286E /* main.m */; };
+		1222A11A1D715DB400CD286E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1222A1191D715DB400CD286E /* AppDelegate.m */; };
+		1222A11D1D715DB400CD286E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1222A11C1D715DB400CD286E /* ViewController.m */; };
+		1222A1201D715DB400CD286E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1222A11E1D715DB400CD286E /* Main.storyboard */; };
+		1222A1221D715DB400CD286E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1222A1211D715DB400CD286E /* Assets.xcassets */; };
+		1222A1251D715DB400CD286E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1222A1231D715DB400CD286E /* LaunchScreen.storyboard */; };
+		1222A12E1D715DD200CD286E /* TestViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1222A12D1D715DD200CD286E /* TestViewControllerA.m */; };
+		1222A1371D716C6400CD286E /* TestViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1222A1361D716C6400CD286E /* TestViewControllerB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1222A1121D715DB400CD286E /* NTESViewController1Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTESViewController1Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1222A1161D715DB400CD286E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1222A1181D715DB400CD286E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1222A1191D715DB400CD286E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1222A11B1D715DB400CD286E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1222A11C1D715DB400CD286E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1222A11F1D715DB400CD286E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1222A1211D715DB400CD286E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1222A1241D715DB400CD286E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1222A1261D715DB400CD286E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1222A12C1D715DD200CD286E /* TestViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerA.h; sourceTree = "<group>"; };
+		1222A12D1D715DD200CD286E /* TestViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerA.m; sourceTree = "<group>"; };
+		1222A1351D716C6400CD286E /* TestViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerB.h; sourceTree = "<group>"; };
+		1222A1361D716C6400CD286E /* TestViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1222A10F1D715DB400CD286E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1222A1091D715DB400CD286E = {
+			isa = PBXGroup;
+			children = (
+				1222A1141D715DB400CD286E /* NTESViewController1Demo */,
+				1222A1131D715DB400CD286E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1222A1131D715DB400CD286E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1222A1121D715DB400CD286E /* NTESViewController1Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1222A1141D715DB400CD286E /* NTESViewController1Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1222A1181D715DB400CD286E /* AppDelegate.h */,
+				1222A1191D715DB400CD286E /* AppDelegate.m */,
+				1222A11B1D715DB400CD286E /* ViewController.h */,
+				1222A11C1D715DB400CD286E /* ViewController.m */,
+				1222A11E1D715DB400CD286E /* Main.storyboard */,
+				1222A1211D715DB400CD286E /* Assets.xcassets */,
+				1222A1231D715DB400CD286E /* LaunchScreen.storyboard */,
+				1222A1261D715DB400CD286E /* Info.plist */,
+				1222A1151D715DB400CD286E /* Supporting Files */,
+				1222A12C1D715DD200CD286E /* TestViewControllerA.h */,
+				1222A12D1D715DD200CD286E /* TestViewControllerA.m */,
+				1222A1351D716C6400CD286E /* TestViewControllerB.h */,
+				1222A1361D716C6400CD286E /* TestViewControllerB.m */,
+			);
+			path = NTESViewController1Demo;
+			sourceTree = "<group>";
+		};
+		1222A1151D715DB400CD286E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1222A1161D715DB400CD286E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1222A1111D715DB400CD286E /* NTESViewController1Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1222A1291D715DB400CD286E /* Build configuration list for PBXNativeTarget "NTESViewController1Demo" */;
+			buildPhases = (
+				1222A10E1D715DB400CD286E /* Sources */,
+				1222A10F1D715DB400CD286E /* Frameworks */,
+				1222A1101D715DB400CD286E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTESViewController1Demo;
+			productName = NTESViewController1Demo;
+			productReference = 1222A1121D715DB400CD286E /* NTESViewController1Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1222A10A1D715DB400CD286E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NetEase;
+				TargetAttributes = {
+					1222A1111D715DB400CD286E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1222A10D1D715DB400CD286E /* Build configuration list for PBXProject "NTESViewController1Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1222A1091D715DB400CD286E;
+			productRefGroup = 1222A1131D715DB400CD286E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1222A1111D715DB400CD286E /* NTESViewController1Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1222A1101D715DB400CD286E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1222A1251D715DB400CD286E /* LaunchScreen.storyboard in Resources */,
+				1222A1221D715DB400CD286E /* Assets.xcassets in Resources */,
+				1222A1201D715DB400CD286E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1222A10E1D715DB400CD286E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1222A12E1D715DD200CD286E /* TestViewControllerA.m in Sources */,
+				1222A11D1D715DB400CD286E /* ViewController.m in Sources */,
+				1222A11A1D715DB400CD286E /* AppDelegate.m in Sources */,
+				1222A1371D716C6400CD286E /* TestViewControllerB.m in Sources */,
+				1222A1171D715DB400CD286E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1222A11E1D715DB400CD286E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1222A11F1D715DB400CD286E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1222A1231D715DB400CD286E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1222A1241D715DB400CD286E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1222A1271D715DB400CD286E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1222A1281D715DB400CD286E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1222A12A1D715DB400CD286E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTESViewController1Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.NTESViewController1Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1222A12B1D715DB400CD286E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTESViewController1Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.NTESViewController1Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1222A10D1D715DB400CD286E /* Build configuration list for PBXProject "NTESViewController1Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1222A1271D715DB400CD286E /* Debug */,
+				1222A1281D715DB400CD286E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1222A1291D715DB400CD286E /* Build configuration list for PBXNativeTarget "NTESViewController1Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1222A12A1D715DB400CD286E /* Debug */,
+				1222A12B1D715DB400CD286E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1222A10A1D715DB400CD286E /* Project object */;
+}

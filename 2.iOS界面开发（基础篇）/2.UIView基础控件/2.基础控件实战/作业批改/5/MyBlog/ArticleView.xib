@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ArticleView">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="204"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-avatar" translatesAutoresizingMaskIntoConstraints="NO" id="Ihe-ml-p7r">
+                    <rect key="frame" x="8" y="8" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="PY5-QS-0il"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Apple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V22-dX-mMH">
+                    <rect key="frame" x="60" y="8" width="64" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-12-12 23:56:43" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSl-th-18O">
+                    <rect key="frame" x="224" y="8" width="121" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.5607843137254902" green="0.55686274509803924" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRz-sP-2HE">
+                    <rect key="frame" x="60" y="28" width="285" height="83"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="83" id="WK4-J5-i8v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.5607843137254902" green="0.55686274509803924" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZRz-sP-2HE" firstAttribute="top" secondItem="dSl-th-18O" secondAttribute="bottom" constant="5" id="GWV-kI-dER"/>
+                <constraint firstAttribute="trailing" secondItem="dSl-th-18O" secondAttribute="trailing" constant="8" id="J7Q-wj-BzO"/>
+                <constraint firstItem="dSl-th-18O" firstAttribute="top" secondItem="Ihe-ml-p7r" secondAttribute="top" id="LNp-uG-ptT"/>
+                <constraint firstItem="ZRz-sP-2HE" firstAttribute="top" secondItem="dSl-th-18O" secondAttribute="bottom" constant="5" id="NRm-bZ-JVa"/>
+                <constraint firstItem="ZRz-sP-2HE" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="XJH-m6-qAz"/>
+                <constraint firstItem="Ihe-ml-p7r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Zcy-KC-RSR"/>
+                <constraint firstItem="V22-dX-mMH" firstAttribute="top" secondItem="Ihe-ml-p7r" secondAttribute="top" id="arD-Kl-bUN"/>
+                <constraint firstItem="Ihe-ml-p7r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="bJx-j3-MBg"/>
+                <constraint firstItem="ZRz-sP-2HE" firstAttribute="leading" secondItem="V22-dX-mMH" secondAttribute="leading" id="lvW-di-Azm"/>
+                <constraint firstItem="dSl-th-18O" firstAttribute="top" secondItem="V22-dX-mMH" secondAttribute="top" id="wqh-J6-V7B"/>
+                <constraint firstItem="ZRz-sP-2HE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="xmf-hG-6p6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="Label" destination="ZRz-sP-2HE" id="2gG-Bn-9uA"/>
+                <outlet property="NameLabel" destination="V22-dX-mMH" id="DWQ-OM-T2w"/>
+                <outlet property="TimeLabel" destination="dSl-th-18O" id="pED-Sa-ZV0"/>
+            </connections>
+            <point key="canvasLocation" x="-307" y="-148"/>
+        </view>
+        <view contentMode="scaleToFill" id="qts-pI-elQ" userLabel="View1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="-540" y="454"/>
+        </view>
+        <view contentMode="scaleToFill" id="Ymb-4M-8bb" userLabel="View2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="50" y="454"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-avatar" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NTESMapDemo/ViewController.m"
+            timestampString = "521951129.949806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-mapView:didUpdateUserLocation:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController mapView:didUpdateUserLocation:]"
+                  moduleName = "NTESMapDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wudi/Documents/Work/Learning/%E7%BD%91%E6%98%93iOS%E5%BE%AE%E4%B8%93%E4%B8%9A/3.iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E8%BF%9B%E9%98%B6%E7%AF%87%EF%BC%89/11.%20%E5%9C%B0%E5%9B%BE%E4%B8%8E%E5%AE%9A%E4%BD%8D/3.11.1%20%E5%9C%B0%E5%9B%BE%E4%B8%8E%E5%AE%9A%E4%BD%8D/NTESMapDemo/NTESMapDemo/ViewController.m"
+                  timestampString = "521951130.226984"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[ViewController mapView:didUpdateUserLocation:]_block_invoke"
+                  moduleName = "NTESMapDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wudi/Documents/Work/Learning/%E7%BD%91%E6%98%93iOS%E5%BE%AE%E4%B8%93%E4%B8%9A/3.iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E8%BF%9B%E9%98%B6%E7%AF%87%EF%BC%89/11.%20%E5%9C%B0%E5%9B%BE%E4%B8%8E%E5%AE%9A%E4%BD%8D/3.11.1%20%E5%9C%B0%E5%9B%BE%E4%B8%8E%E5%AE%9A%E4%BD%8D/NTESMapDemo/NTESMapDemo/ViewController.m"
+                  timestampString = "521951130.229518"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

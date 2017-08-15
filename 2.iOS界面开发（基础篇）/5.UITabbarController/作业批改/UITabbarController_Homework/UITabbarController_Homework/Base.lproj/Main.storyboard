@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Uje-CY-4ZK">
+            <objects>
+                <viewController id="TDg-nl-fsD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z5b-gr-zhP"/>
+                        <viewControllerLayoutGuide type="bottom" id="pqt-AE-IZ6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jjc-ND-EFn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" badgeValue="2" id="SSA-Oq-thC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CNH-aR-mfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="-145"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="mJH-ZM-2xb">
+            <objects>
+                <viewController id="bVR-KS-DKH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RUA-0Y-XIq"/>
+                        <viewControllerLayoutGuide type="bottom" id="f0n-c7-iBW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CC9-eO-dd5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="WTy-Bt-fYI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tYC-ni-gPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="-799"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xeI-DA-hEM">
+            <objects>
+                <tabBarController id="gpR-oQ-P2T" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="barBack" shadowImage="shadowBorder" id="DTO-Rt-omO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bVR-KS-DKH" kind="relationship" relationship="viewControllers" id="8D0-ZV-KCN"/>
+                        <segue destination="TDg-nl-fsD" kind="relationship" relationship="viewControllers" id="4nK-K1-SGY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwb-Za-Qe2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1016" y="-471"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="barBack" width="320" height="49"/>
+        <image name="shadowBorder" width="14" height="1"/>
+    </resources>
+</document>

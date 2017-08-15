@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wp4-GG-xh9" customClass="ESTMusicIndicatorView" customModule="OCAndSwift" customModuleProvider="target">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="HTc-YN-gJE"/>
+                                    <constraint firstAttribute="width" constant="100" id="h0P-tc-HH5"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOd-wj-0MT">
+                                <rect key="frame" x="132" y="423" width="31" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="12A-vn-ABI"/>
+                                    <constraint firstAttribute="width" constant="31" id="X1h-vx-52W"/>
+                                </constraints>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="startAnimationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6hS-Bk-nWo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYb-dy-7wM">
+                                <rect key="frame" x="212" y="423" width="31" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="9aj-o5-41m"/>
+                                    <constraint firstAttribute="height" constant="30" id="QVY-Fn-I9F"/>
+                                </constraints>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="stopAnimationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mma-Yt-LNw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wp4-GG-xh9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1NG-Tc-h2A"/>
+                            <constraint firstItem="cOd-wj-0MT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-40" id="FRP-8B-oPf"/>
+                            <constraint firstItem="HYb-dy-7wM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="40" id="X0h-id-8j3"/>
+                            <constraint firstItem="HYb-dy-7wM" firstAttribute="top" secondItem="wp4-GG-xh9" secondAttribute="bottom" constant="40" id="Zgp-6g-4BD"/>
+                            <constraint firstItem="cOd-wj-0MT" firstAttribute="top" secondItem="wp4-GG-xh9" secondAttribute="bottom" constant="40" id="kWs-dx-uDi"/>
+                            <constraint firstItem="wp4-GG-xh9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sCT-3K-iEB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="wp4-GG-xh9" id="x9b-sb-a9f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

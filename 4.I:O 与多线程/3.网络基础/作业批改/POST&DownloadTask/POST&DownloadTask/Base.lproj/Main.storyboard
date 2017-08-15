@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiS-QH-uiM">
+                                <rect key="frame" x="70" y="146" width="40" height="30"/>
+                                <state key="normal" title="POST"/>
+                                <connections>
+                                    <action selector="POSTAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQK-nV-zA0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2X-jO-JBo">
+                                <rect key="frame" x="235" y="146" width="74" height="30"/>
+                                <state key="normal" title="POST 出错"/>
+                                <connections>
+                                    <action selector="POSTError:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IcJ-tM-ooe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78G-Ar-VSr">
+                                <rect key="frame" x="56" y="213" width="69" height="30"/>
+                                <state key="normal" title="Download"/>
+                                <connections>
+                                    <action selector="DownloadAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fFk-AK-5d3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSi-Ci-f2O">
+                                <rect key="frame" x="221" y="213" width="103" height="30"/>
+                                <state key="normal" title="Download 出错"/>
+                                <connections>
+                                    <action selector="DownloadError:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xvW-Ft-7aG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="78G-Ar-VSr" firstAttribute="top" secondItem="qiS-QH-uiM" secondAttribute="bottom" constant="37" id="4tZ-Bc-Duw"/>
+                            <constraint firstItem="78G-Ar-VSr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="56" id="Jhx-kL-8hy"/>
+                            <constraint firstItem="qiS-QH-uiM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="126" id="NE2-Je-v91"/>
+                            <constraint firstAttribute="trailing" secondItem="j2X-jO-JBo" secondAttribute="trailing" constant="66" id="WnJ-pS-cQj"/>
+                            <constraint firstItem="j2X-jO-JBo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="126" id="gzV-zN-hc5"/>
+                            <constraint firstItem="qiS-QH-uiM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="70" id="i3q-sc-kqK"/>
+                            <constraint firstItem="hSi-Ci-f2O" firstAttribute="top" secondItem="j2X-jO-JBo" secondAttribute="bottom" constant="37" id="uoX-T1-gzF"/>
+                            <constraint firstAttribute="trailing" secondItem="hSi-Ci-f2O" secondAttribute="trailing" constant="51" id="xyD-zL-XPT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

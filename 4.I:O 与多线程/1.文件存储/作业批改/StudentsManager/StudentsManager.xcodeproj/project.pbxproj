@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF428A41F246FBE0067F49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428A31F246FBE0067F49D /* main.m */; };
+		AAF428A71F246FBE0067F49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428A61F246FBE0067F49D /* AppDelegate.m */; };
+		AAF428AA1F246FBE0067F49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428A91F246FBE0067F49D /* ViewController.m */; };
+		AAF428AF1F246FBE0067F49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF428AE1F246FBE0067F49D /* Assets.xcassets */; };
+		AAF428B21F246FBE0067F49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF428B01F246FBE0067F49D /* LaunchScreen.storyboard */; };
+		AAF428BA1F246FF00067F49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF428B91F246FF00067F49D /* Main.storyboard */; };
+		AAF428D91F2470220067F49D /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF428C71F2470220067F49D /* AddView.xib */; };
+		AAF428DA1F2470220067F49D /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428C91F2470220067F49D /* AddViewController.m */; };
+		AAF428DB1F2470220067F49D /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428CB1F2470220067F49D /* FirstTableViewController.m */; };
+		AAF428DC1F2470220067F49D /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428CD1F2470220067F49D /* Information.m */; };
+		AAF428DD1F2470220067F49D /* ScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428CF1F2470220067F49D /* ScoreTableViewController.m */; };
+		AAF428DE1F2470220067F49D /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428D11F2470220067F49D /* SecondTableViewController.m */; };
+		AAF428DF1F2470220067F49D /* SubjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428D31F2470220067F49D /* SubjectTableViewController.m */; };
+		AAF428E21F2470430067F49D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF428E11F2470430067F49D /* libsqlite3.tbd */; };
+		AAF428F81F2471690067F49D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428ED1F2471690067F49D /* FMDatabase.m */; };
+		AAF428F91F2471690067F49D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428EF1F2471690067F49D /* FMDatabaseAdditions.m */; };
+		AAF428FA1F2471690067F49D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428F11F2471690067F49D /* FMDatabasePool.m */; };
+		AAF428FB1F2471690067F49D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428F31F2471690067F49D /* FMDatabaseQueue.m */; };
+		AAF428FC1F2471690067F49D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF428F61F2471690067F49D /* FMResultSet.m */; };
+		AAF428FD1F2471690067F49D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAF428F71F2471690067F49D /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAF4289F1F246FBE0067F49D /* StudentsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF428A31F246FBE0067F49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAF428A51F246FBE0067F49D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAF428A61F246FBE0067F49D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAF428A81F246FBE0067F49D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAF428A91F246FBE0067F49D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAF428AE1F246FBE0067F49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF428B11F246FBE0067F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF428B31F246FBE0067F49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF428B91F246FF00067F49D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AAF428C71F2470220067F49D /* AddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddView.xib; path = "../../Xcode Project/StudentsManager 2/StudentsManager/AddView.xib"; sourceTree = "<group>"; };
+		AAF428C81F2470220067F49D /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = "../../Xcode Project/StudentsManager 2/StudentsManager/AddViewController.h"; sourceTree = "<group>"; };
+		AAF428C91F2470220067F49D /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = "../../Xcode Project/StudentsManager 2/StudentsManager/AddViewController.m"; sourceTree = "<group>"; };
+		AAF428CA1F2470220067F49D /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstTableViewController.h; path = "../../Xcode Project/StudentsManager 2/StudentsManager/FirstTableViewController.h"; sourceTree = "<group>"; };
+		AAF428CB1F2470220067F49D /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstTableViewController.m; path = "../../Xcode Project/StudentsManager 2/StudentsManager/FirstTableViewController.m"; sourceTree = "<group>"; };
+		AAF428CC1F2470220067F49D /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Information.h; path = "../../Xcode Project/StudentsManager 2/StudentsManager/Information.h"; sourceTree = "<group>"; };
+		AAF428CD1F2470220067F49D /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Information.m; path = "../../Xcode Project/StudentsManager 2/StudentsManager/Information.m"; sourceTree = "<group>"; };
+		AAF428CE1F2470220067F49D /* ScoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreTableViewController.h; path = "../../Xcode Project/StudentsManager 2/StudentsManager/ScoreTableViewController.h"; sourceTree = "<group>"; };
+		AAF428CF1F2470220067F49D /* ScoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreTableViewController.m; path = "../../Xcode Project/StudentsManager 2/StudentsManager/ScoreTableViewController.m"; sourceTree = "<group>"; };
+		AAF428D01F2470220067F49D /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondTableViewController.h; path = "../../Xcode Project/StudentsManager 2/StudentsManager/SecondTableViewController.h"; sourceTree = "<group>"; };
+		AAF428D11F2470220067F49D /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondTableViewController.m; path = "../../Xcode Project/StudentsManager 2/StudentsManager/SecondTableViewController.m"; sourceTree = "<group>"; };
+		AAF428D21F2470220067F49D /* SubjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectTableViewController.h; path = "../../Xcode Project/StudentsManager 2/StudentsManager/SubjectTableViewController.h"; sourceTree = "<group>"; };
+		AAF428D31F2470220067F49D /* SubjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectTableViewController.m; path = "../../Xcode Project/StudentsManager 2/StudentsManager/SubjectTableViewController.m"; sourceTree = "<group>"; };
+		AAF428E11F2470430067F49D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AAF428EC1F2471690067F49D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AAF428ED1F2471690067F49D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AAF428EE1F2471690067F49D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AAF428EF1F2471690067F49D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AAF428F01F2471690067F49D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AAF428F11F2471690067F49D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AAF428F21F2471690067F49D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AAF428F31F2471690067F49D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AAF428F41F2471690067F49D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AAF428F51F2471690067F49D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AAF428F61F2471690067F49D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AAF428F71F2471690067F49D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF4289C1F246FBE0067F49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF428E21F2470430067F49D /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF428961F246FBE0067F49D = {
+			isa = PBXGroup;
+			children = (
+				AAF428A11F246FBE0067F49D /* StudentsManager */,
+				AAF428A01F246FBE0067F49D /* Products */,
+				AAF428E01F2470420067F49D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF428A01F246FBE0067F49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF4289F1F246FBE0067F49D /* StudentsManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF428A11F246FBE0067F49D /* StudentsManager */ = {
+			isa = PBXGroup;
+			children = (
+				AAF428EB1F2471690067F49D /* fmdb */,
+				AAF428C71F2470220067F49D /* AddView.xib */,
+				AAF428C81F2470220067F49D /* AddViewController.h */,
+				AAF428C91F2470220067F49D /* AddViewController.m */,
+				AAF428CA1F2470220067F49D /* FirstTableViewController.h */,
+				AAF428CB1F2470220067F49D /* FirstTableViewController.m */,
+				AAF428CC1F2470220067F49D /* Information.h */,
+				AAF428CD1F2470220067F49D /* Information.m */,
+				AAF428CE1F2470220067F49D /* ScoreTableViewController.h */,
+				AAF428CF1F2470220067F49D /* ScoreTableViewController.m */,
+				AAF428D01F2470220067F49D /* SecondTableViewController.h */,
+				AAF428D11F2470220067F49D /* SecondTableViewController.m */,
+				AAF428D21F2470220067F49D /* SubjectTableViewController.h */,
+				AAF428D31F2470220067F49D /* SubjectTableViewController.m */,
+				AAF428A51F246FBE0067F49D /* AppDelegate.h */,
+				AAF428A61F246FBE0067F49D /* AppDelegate.m */,
+				AAF428A81F246FBE0067F49D /* ViewController.h */,
+				AAF428A91F246FBE0067F49D /* ViewController.m */,
+				AAF428B91F246FF00067F49D /* Main.storyboard */,
+				AAF428AE1F246FBE0067F49D /* Assets.xcassets */,
+				AAF428B01F246FBE0067F49D /* LaunchScreen.storyboard */,
+				AAF428B31F246FBE0067F49D /* Info.plist */,
+				AAF428A21F246FBE0067F49D /* Supporting Files */,
+			);
+			path = StudentsManager;
+			sourceTree = "<group>";
+		};
+		AAF428A21F246FBE0067F49D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAF428A31F246FBE0067F49D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAF428E01F2470420067F49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF428E11F2470430067F49D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAF428EB1F2471690067F49D /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				AAF428EC1F2471690067F49D /* FMDatabase.h */,
+				AAF428ED1F2471690067F49D /* FMDatabase.m */,
+				AAF428EE1F2471690067F49D /* FMDatabaseAdditions.h */,
+				AAF428EF1F2471690067F49D /* FMDatabaseAdditions.m */,
+				AAF428F01F2471690067F49D /* FMDatabasePool.h */,
+				AAF428F11F2471690067F49D /* FMDatabasePool.m */,
+				AAF428F21F2471690067F49D /* FMDatabaseQueue.h */,
+				AAF428F31F2471690067F49D /* FMDatabaseQueue.m */,
+				AAF428F41F2471690067F49D /* FMDB.h */,
+				AAF428F51F2471690067F49D /* FMResultSet.h */,
+				AAF428F61F2471690067F49D /* FMResultSet.m */,
+				AAF428F71F2471690067F49D /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF4289E1F246FBE0067F49D /* StudentsManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF428B61F246FBE0067F49D /* Build configuration list for PBXNativeTarget "StudentsManager" */;
+			buildPhases = (
+				AAF4289B1F246FBE0067F49D /* Sources */,
+				AAF4289C1F246FBE0067F49D /* Frameworks */,
+				AAF4289D1F246FBE0067F49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentsManager;
+			productName = StudentsManager;
+			productReference = AAF4289F1F246FBE0067F49D /* StudentsManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF428971F246FBE0067F49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "lusuihao-mac";
+				TargetAttributes = {
+					AAF4289E1F246FBE0067F49D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAF4289A1F246FBE0067F49D /* Build configuration list for PBXProject "StudentsManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF428961F246FBE0067F49D;
+			productRefGroup = AAF428A01F246FBE0067F49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF4289E1F246FBE0067F49D /* StudentsManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF4289D1F246FBE0067F49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF428D91F2470220067F49D /* AddView.xib in Resources */,
+				AAF428B21F246FBE0067F49D /* LaunchScreen.storyboard in Resources */,
+				AAF428AF1F246FBE0067F49D /* Assets.xcassets in Resources */,
+				AAF428FD1F2471690067F49D /* Info.plist in Resources */,
+				AAF428BA1F246FF00067F49D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF4289B1F246FBE0067F49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF428DF1F2470220067F49D /* SubjectTableViewController.m in Sources */,
+				AAF428FA1F2471690067F49D /* FMDatabasePool.m in Sources */,
+				AAF428FC1F2471690067F49D /* FMResultSet.m in Sources */,
+				AAF428DC1F2470220067F49D /* Information.m in Sources */,
+				AAF428AA1F246FBE0067F49D /* ViewController.m in Sources */,
+				AAF428FB1F2471690067F49D /* FMDatabaseQueue.m in Sources */,
+				AAF428F81F2471690067F49D /* FMDatabase.m in Sources */,
+				AAF428DB1F2470220067F49D /* FirstTableViewController.m in Sources */,
+				AAF428DD1F2470220067F49D /* ScoreTableViewController.m in Sources */,
+				AAF428A71F246FBE0067F49D /* AppDelegate.m in Sources */,
+				AAF428F91F2471690067F49D /* FMDatabaseAdditions.m in Sources */,
+				AAF428A41F246FBE0067F49D /* main.m in Sources */,
+				AAF428DE1F2470220067F49D /* SecondTableViewController.m in Sources */,
+				AAF428DA1F2470220067F49D /* AddViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAF428B01F246FBE0067F49D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF428B11F246FBE0067F49D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF428B41F246FBE0067F49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAF428B51F246FBE0067F49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF428B71F246FBE0067F49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentsManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lusuihao.StudentsManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAF428B81F246FBE0067F49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentsManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lusuihao.StudentsManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF4289A1F246FBE0067F49D /* Build configuration list for PBXProject "StudentsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF428B41F246FBE0067F49D /* Debug */,
+				AAF428B51F246FBE0067F49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF428B61F246FBE0067F49D /* Build configuration list for PBXNativeTarget "StudentsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF428B71F246FBE0067F49D /* Debug */,
+				AAF428B81F246FBE0067F49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF428971F246FBE0067F49D /* Project object */;
+}

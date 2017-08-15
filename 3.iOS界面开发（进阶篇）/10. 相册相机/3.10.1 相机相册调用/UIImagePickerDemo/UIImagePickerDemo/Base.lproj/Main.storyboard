@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Z6-gt-8ey">
+                                <rect key="frame" x="156" y="467" width="62" height="30"/>
+                                <state key="normal" title="打开相机"/>
+                                <connections>
+                                    <action selector="takePhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aUB-eZ-1t7"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AOZ-in-clf">
+                                <rect key="frame" x="112.5" y="70" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="6ET-0T-Ylf"/>
+                                    <constraint firstAttribute="height" constant="150" id="C2f-2s-CDe"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvx-dW-oUE">
+                                <rect key="frame" x="142" y="517" width="92" height="30"/>
+                                <state key="normal" title="打开视频拍摄"/>
+                                <connections>
+                                    <action selector="takeVideoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHW-cG-Pii"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ltd-HM-cwb">
+                                <rect key="frame" x="141" y="567" width="92" height="30"/>
+                                <state key="normal" title="选择本地图片"/>
+                                <connections>
+                                    <action selector="openPhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yy6-mF-ptd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5T-cT-A4T">
+                                <rect key="frame" x="141" y="617" width="92" height="30"/>
+                                <state key="normal" title="选择本地视频"/>
+                                <connections>
+                                    <action selector="openVideoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YVj-pr-bWJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AOZ-in-clf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="14N-eh-2OZ"/>
+                            <constraint firstItem="V5T-cT-A4T" firstAttribute="top" secondItem="Ltd-HM-cwb" secondAttribute="bottom" constant="20" id="32P-dy-1Mw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V5T-cT-A4T" secondAttribute="bottom" constant="20" id="5UH-Q6-UdQ"/>
+                            <constraint firstItem="Ltd-HM-cwb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7gJ-RS-kXf"/>
+                            <constraint firstItem="V5T-cT-A4T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oct-kf-Rq9"/>
+                            <constraint firstItem="Ltd-HM-cwb" firstAttribute="top" secondItem="Gvx-dW-oUE" secondAttribute="bottom" constant="20" id="VPI-cb-cO6"/>
+                            <constraint firstItem="8Z6-gt-8ey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aIe-cI-mH4"/>
+                            <constraint firstItem="Gvx-dW-oUE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b0C-mH-jcO"/>
+                            <constraint firstItem="Gvx-dW-oUE" firstAttribute="top" secondItem="8Z6-gt-8ey" secondAttribute="bottom" constant="20" id="gVp-gP-Ciw"/>
+                            <constraint firstItem="AOZ-in-clf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="obn-9j-mNM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="AOZ-in-clf" id="Bwa-ma-ffF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

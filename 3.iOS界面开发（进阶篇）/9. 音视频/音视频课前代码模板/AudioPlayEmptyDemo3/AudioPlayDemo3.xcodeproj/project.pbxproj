@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEFFB6001D5C13D600CC5C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB5FF1D5C13D600CC5C64 /* main.m */; };
+		DEFFB6031D5C13D600CC5C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB6021D5C13D600CC5C64 /* AppDelegate.m */; };
+		DEFFB6051D5C13D600CC5C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFFB6041D5C13D600CC5C64 /* Assets.xcassets */; };
+		DEFFB6081D5C13D600CC5C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFFB6061D5C13D600CC5C64 /* LaunchScreen.storyboard */; };
+		DEFFB61C1D5C13FF00CC5C64 /* a_moment_of_reflection-enrico_altavilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEFFB6101D5C13FF00CC5C64 /* a_moment_of_reflection-enrico_altavilla.mp3 */; };
+		DEFFB61D1D5C13FF00CC5C64 /* intimate_luxury-rick_dickert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEFFB6111D5C13FF00CC5C64 /* intimate_luxury-rick_dickert.mp3 */; };
+		DEFFB61E1D5C13FF00CC5C64 /* mourning-rick_dickert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEFFB6121D5C13FF00CC5C64 /* mourning-rick_dickert.mp3 */; };
+		DEFFB61F1D5C13FF00CC5C64 /* AVAudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB6141D5C13FF00CC5C64 /* AVAudioPlayerViewController.m */; };
+		DEFFB6201D5C13FF00CC5C64 /* AVAudioPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFFB6151D5C13FF00CC5C64 /* AVAudioPlayerViewController.xib */; };
+		DEFFB6211D5C13FF00CC5C64 /* OutputDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB6171D5C13FF00CC5C64 /* OutputDeviceViewController.m */; };
+		DEFFB6221D5C13FF00CC5C64 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB6191D5C13FF00CC5C64 /* RootViewController.m */; };
+		DEFFB6231D5C13FF00CC5C64 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB61B1D5C13FF00CC5C64 /* Song.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEFFB5FB1D5C13D600CC5C64 /* AudioPlayDemo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayDemo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFFB5FF1D5C13D600CC5C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEFFB6011D5C13D600CC5C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEFFB6021D5C13D600CC5C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEFFB6041D5C13D600CC5C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFFB6071D5C13D600CC5C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEFFB6091D5C13D600CC5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFFB6101D5C13FF00CC5C64 /* a_moment_of_reflection-enrico_altavilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "a_moment_of_reflection-enrico_altavilla.mp3"; sourceTree = "<group>"; };
+		DEFFB6111D5C13FF00CC5C64 /* intimate_luxury-rick_dickert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "intimate_luxury-rick_dickert.mp3"; sourceTree = "<group>"; };
+		DEFFB6121D5C13FF00CC5C64 /* mourning-rick_dickert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mourning-rick_dickert.mp3"; sourceTree = "<group>"; };
+		DEFFB6131D5C13FF00CC5C64 /* AVAudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerViewController.h; sourceTree = "<group>"; };
+		DEFFB6141D5C13FF00CC5C64 /* AVAudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerViewController.m; sourceTree = "<group>"; };
+		DEFFB6151D5C13FF00CC5C64 /* AVAudioPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVAudioPlayerViewController.xib; sourceTree = "<group>"; };
+		DEFFB6161D5C13FF00CC5C64 /* OutputDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputDeviceViewController.h; sourceTree = "<group>"; };
+		DEFFB6171D5C13FF00CC5C64 /* OutputDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputDeviceViewController.m; sourceTree = "<group>"; };
+		DEFFB6181D5C13FF00CC5C64 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DEFFB6191D5C13FF00CC5C64 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DEFFB61A1D5C13FF00CC5C64 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		DEFFB61B1D5C13FF00CC5C64 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEFFB5F81D5C13D600CC5C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEFFB5F21D5C13D600CC5C64 = {
+			isa = PBXGroup;
+			children = (
+				DEFFB5FD1D5C13D600CC5C64 /* AudioPlayDemo3 */,
+				DEFFB5FC1D5C13D600CC5C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEFFB5FC1D5C13D600CC5C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFB5FB1D5C13D600CC5C64 /* AudioPlayDemo3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEFFB5FD1D5C13D600CC5C64 /* AudioPlayDemo3 */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFB60F1D5C13FF00CC5C64 /* Audios */,
+				DEFFB6131D5C13FF00CC5C64 /* AVAudioPlayerViewController.h */,
+				DEFFB6141D5C13FF00CC5C64 /* AVAudioPlayerViewController.m */,
+				DEFFB6151D5C13FF00CC5C64 /* AVAudioPlayerViewController.xib */,
+				DEFFB6161D5C13FF00CC5C64 /* OutputDeviceViewController.h */,
+				DEFFB6171D5C13FF00CC5C64 /* OutputDeviceViewController.m */,
+				DEFFB6181D5C13FF00CC5C64 /* RootViewController.h */,
+				DEFFB6191D5C13FF00CC5C64 /* RootViewController.m */,
+				DEFFB61A1D5C13FF00CC5C64 /* Song.h */,
+				DEFFB61B1D5C13FF00CC5C64 /* Song.m */,
+				DEFFB6011D5C13D600CC5C64 /* AppDelegate.h */,
+				DEFFB6021D5C13D600CC5C64 /* AppDelegate.m */,
+				DEFFB6041D5C13D600CC5C64 /* Assets.xcassets */,
+				DEFFB6061D5C13D600CC5C64 /* LaunchScreen.storyboard */,
+				DEFFB6091D5C13D600CC5C64 /* Info.plist */,
+				DEFFB5FE1D5C13D600CC5C64 /* Supporting Files */,
+			);
+			path = AudioPlayDemo3;
+			sourceTree = "<group>";
+		};
+		DEFFB5FE1D5C13D600CC5C64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFB5FF1D5C13D600CC5C64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEFFB60F1D5C13FF00CC5C64 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFB6101D5C13FF00CC5C64 /* a_moment_of_reflection-enrico_altavilla.mp3 */,
+				DEFFB6111D5C13FF00CC5C64 /* intimate_luxury-rick_dickert.mp3 */,
+				DEFFB6121D5C13FF00CC5C64 /* mourning-rick_dickert.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEFFB5FA1D5C13D600CC5C64 /* AudioPlayDemo3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFFB60C1D5C13D600CC5C64 /* Build configuration list for PBXNativeTarget "AudioPlayDemo3" */;
+			buildPhases = (
+				DEFFB5F71D5C13D600CC5C64 /* Sources */,
+				DEFFB5F81D5C13D600CC5C64 /* Frameworks */,
+				DEFFB5F91D5C13D600CC5C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayDemo3;
+			productName = AudioPlayDemo3;
+			productReference = DEFFB5FB1D5C13D600CC5C64 /* AudioPlayDemo3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEFFB5F31D5C13D600CC5C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Chengyin;
+				TargetAttributes = {
+					DEFFB5FA1D5C13D600CC5C64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DEFFB5F61D5C13D600CC5C64 /* Build configuration list for PBXProject "AudioPlayDemo3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEFFB5F21D5C13D600CC5C64;
+			productRefGroup = DEFFB5FC1D5C13D600CC5C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEFFB5FA1D5C13D600CC5C64 /* AudioPlayDemo3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEFFB5F91D5C13D600CC5C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFFB61D1D5C13FF00CC5C64 /* intimate_luxury-rick_dickert.mp3 in Resources */,
+				DEFFB6201D5C13FF00CC5C64 /* AVAudioPlayerViewController.xib in Resources */,
+				DEFFB6051D5C13D600CC5C64 /* Assets.xcassets in Resources */,
+				DEFFB6081D5C13D600CC5C64 /* LaunchScreen.storyboard in Resources */,
+				DEFFB61C1D5C13FF00CC5C64 /* a_moment_of_reflection-enrico_altavilla.mp3 in Resources */,
+				DEFFB61E1D5C13FF00CC5C64 /* mourning-rick_dickert.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEFFB5F71D5C13D600CC5C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFFB6231D5C13FF00CC5C64 /* Song.m in Sources */,
+				DEFFB61F1D5C13FF00CC5C64 /* AVAudioPlayerViewController.m in Sources */,
+				DEFFB6031D5C13D600CC5C64 /* AppDelegate.m in Sources */,
+				DEFFB6001D5C13D600CC5C64 /* main.m in Sources */,
+				DEFFB6211D5C13FF00CC5C64 /* OutputDeviceViewController.m in Sources */,
+				DEFFB6221D5C13FF00CC5C64 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEFFB6061D5C13D600CC5C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFFB6071D5C13D600CC5C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEFFB60A1D5C13D600CC5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEFFB60B1D5C13D600CC5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEFFB60D1D5C13D600CC5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioPlayDemo3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NetEase.AudioPlayDemo3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEFFB60E1D5C13D600CC5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioPlayDemo3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NetEase.AudioPlayDemo3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEFFB5F61D5C13D600CC5C64 /* Build configuration list for PBXProject "AudioPlayDemo3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFFB60A1D5C13D600CC5C64 /* Debug */,
+				DEFFB60B1D5C13D600CC5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFFB60C1D5C13D600CC5C64 /* Build configuration list for PBXNativeTarget "AudioPlayDemo3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFFB60D1D5C13D600CC5C64 /* Debug */,
+				DEFFB60E1D5C13D600CC5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEFFB5F31D5C13D600CC5C64 /* Project object */;
+}

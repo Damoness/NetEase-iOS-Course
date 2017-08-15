@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)/TableViewController.m"
+            timestampString = "518280031.478996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "-storeHeaderView:checkSelect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)/TableViewController.m"
+            timestampString = "518280031.478996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "-storeHeaderView:checkSelect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)/TableViewController.m"
+            timestampString = "518280031.478996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "-goodsTableViewCell:checkSelect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)/TableViewController.m"
+            timestampString = "518280031.478996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "-goodsTableViewCell:checkSelect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)/TableViewController.m"
+            timestampString = "518280031.478996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "-goodsTableViewCell:checkSelect:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TableViewController goodsTableViewCell:checkSelect:]"
+                  moduleName = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wd/Desktop/learning/%E7%BD%91%E6%98%93iOS%E5%BE%AE%E4%B8%93%E4%B8%9A/2.iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%89/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/Examination_iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87)/Examination_iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87)/TableViewController.m"
+                  timestampString = "518276409.595714"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TableViewController goodsTableViewCell:checkSelect:]"
+                  moduleName = "Examination_iOS&#x754c;&#x9762;&#x5f00;&#x53d1;&#xff08;&#x57fa;&#x7840;&#x7bc7;)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wd/Desktop/learning/%E7%BD%91%E6%98%93iOS%E5%BE%AE%E4%B8%93%E4%B8%9A/2.iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%89/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/Examination_iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87)/Examination_iOS%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87)/TableViewController.m"
+                  timestampString = "518276409.598588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

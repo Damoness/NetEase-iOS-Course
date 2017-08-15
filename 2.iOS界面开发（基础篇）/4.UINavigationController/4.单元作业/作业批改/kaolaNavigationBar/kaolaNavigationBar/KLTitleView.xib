@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KLTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="490" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3T-di-k61">
+                    <rect key="frame" x="10" y="10" width="20" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="cmu-Xs-seV"/>
+                        <constraint firstAttribute="height" constant="22" id="gf5-8H-MDd"/>
+                    </constraints>
+                    <state key="normal" image="扫一扫icon"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfD-aK-nOU">
+                    <rect key="frame" x="460" y="10" width="20" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="LEE-Ly-TnK"/>
+                        <constraint firstAttribute="height" constant="22" id="uzK-de-li4"/>
+                    </constraints>
+                    <state key="normal" image="消息中心入口"/>
+                </button>
+                <searchBar contentMode="scaleToFill" searchBarStyle="minimal" placeholder="在千萬人群中尋找正在看我作業的你" translatesAutoresizingMaskIntoConstraints="NO" id="Xid-jJ-g1J">
+                    <rect key="frame" x="40" y="0.0" width="410" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="k3C-63-PIT"/>
+                    </constraints>
+                    <offsetWrapper key="searchFieldBackgroundPositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xid-jJ-g1J" firstAttribute="leading" secondItem="y3T-di-k61" secondAttribute="trailing" constant="10" id="H8r-Pz-84h"/>
+                <constraint firstAttribute="trailing" secondItem="GfD-aK-nOU" secondAttribute="trailing" constant="10" id="VmH-5V-Ezv"/>
+                <constraint firstItem="Xid-jJ-g1J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YaO-GT-sw0"/>
+                <constraint firstAttribute="bottom" secondItem="Xid-jJ-g1J" secondAttribute="bottom" id="aso-MC-WKq"/>
+                <constraint firstItem="GfD-aK-nOU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="ctJ-4o-LRF"/>
+                <constraint firstItem="y3T-di-k61" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="eLo-nJ-2RU"/>
+                <constraint firstItem="GfD-aK-nOU" firstAttribute="leading" secondItem="Xid-jJ-g1J" secondAttribute="trailing" constant="10" id="fwU-kM-fRT"/>
+                <constraint firstItem="y3T-di-k61" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ygB-Ft-rgZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="messageButton" destination="GfD-aK-nOU" id="rbA-GU-Oqm"/>
+                <outlet property="scanButton" destination="y3T-di-k61" id="I80-ep-lf9"/>
+            </connections>
+            <point key="canvasLocation" x="1" y="-220"/>
+        </view>
+        <view contentMode="scaleToFill" id="GEh-ER-OFn">
+            <rect key="frame" x="0.0" y="0.0" width="490" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1" y="-77.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="扫一扫icon" width="20" height="20"/>
+        <image name="消息中心入口" width="20" height="20"/>
+    </resources>
+</document>
