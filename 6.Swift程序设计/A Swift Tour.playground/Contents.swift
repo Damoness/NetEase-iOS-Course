@@ -5,6 +5,8 @@ import UIKit
 var str = "Hello, playground"
 
 
+print("Hello,world!")
+
 // Enumerations and Structures 枚举和结构
 
 enum Rank:Int {
