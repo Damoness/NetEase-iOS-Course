@@ -39,6 +39,9 @@ let statistics = calculateStatistics(scores: [5, 3, 100, 3, 9])
 print(statistics.sum)
 print(statistics.2)
 
+
+
+
 //: Functions can be nested. Nested functions have access to variables that were declared in the outer function. You can use nested functions to organize the code in a function that is long or complex.
 //:
 func returnFifteen() -> Int {
@@ -91,6 +94,7 @@ numbers.map({ (number: Int) -> Int in
 //: You have several options for writing closures more concisely. When a closure’s type is already known, such as the callback for a delegate, you can omit the type of its parameters, its return type, or both. Single statement closures implicitly return the value of their only statement.
 //:
 let mappedNumbers = numbers.map({ number in 3 * number })
+
 print(mappedNumbers)
 
 //: You can refer to parameters by number instead of by name—this approach is especially useful in very short closures. A closure passed as the last argument to a function can appear immediately after the parentheses. When a closure is the only argument to a function, you can omit the parentheses entirely.

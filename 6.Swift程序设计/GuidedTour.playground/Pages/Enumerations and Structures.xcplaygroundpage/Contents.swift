@@ -8,13 +8,13 @@ enum Rank: Int {
     case jack, queen, king
     func simpleDescription() -> String {
         switch self {
-            case .ace:
+            case .ace: //A
                 return "ace"
-            case .jack:
+            case .jack: //J
                 return "jack"
-            case .queen:
+            case .queen: //Q
                 return "queen"
-            case .king:
+            case .king: //K
                 return "king"
             default:
                 return String(self.rawValue)
@@ -37,24 +37,43 @@ if let convertedRank = Rank(rawValue: 3) {
 
 //: The case values of an enumeration are actual values, not just another way of writing their raw values. In fact, in cases where there isn’t a meaningful raw value, you don’t have to provide one.
 //:
-enum Suit {
+enum Suit { //一组
     case spades, hearts, diamonds, clubs
     func simpleDescription() -> String {
         switch self {
-            case .spades:
+            case .spades: //黑桃
                 return "spades"
-            case .hearts:
+            case .hearts: //红心
                 return "hearts"
-            case .diamonds:
+            case .diamonds: //方片
                 return "diamonds"
-            case .clubs:
+            case .clubs: //梅花
                 return "clubs"
         }
     }
+    
+    //实验
+    func color() -> String {
+        
+        switch self {
+        case .spades,.clubs:
+            return "black"
+        case .hearts,.diamonds:
+            return "red"
+        }
+        
+    }
 }
+
 let hearts = Suit.hearts
 let heartsDescription = hearts.simpleDescription()
 
+
+//实验
+let club = Suit.spades
+club.color()
+let spades = Suit.spades
+spades.color()
 //: - Experiment:
 //: Add a `color()` method to `Suit` that returns “black” for spades and clubs, and returns “red” for hearts and diamonds.
 //:
@@ -65,16 +84,23 @@ let heartsDescription = hearts.simpleDescription()
 enum ServerResponse {
     case result(String, String)
     case failure(String)
+    
+    //
+    case third(String)
 }
 
 let success = ServerResponse.result("6:00 am", "8:09 pm")
-let failure = ServerResponse.failure("Out of cheese.")
+let failure = ServerResponse.failure("Out of cheese.") 
 
 switch success {
     case let .result(sunrise, sunset):
         print("Sunrise is at \(sunrise) and sunset is at \(sunset).")
     case let .failure(message):
         print("Failure...  \(message)")
+    //
+    case let .third(message):
+        print("Third... \(message)")
+    
 }
 
 //: - Experiment:
@@ -90,6 +116,8 @@ struct Card {
     func simpleDescription() -> String {
         return "The \(rank.simpleDescription()) of \(suit.simpleDescription())"
     }
+    
+    //
 }
 let threeOfSpades = Card(rank: .three, suit: .spades)
 let threeOfSpadesDescription = threeOfSpades.simpleDescription()

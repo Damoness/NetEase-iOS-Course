@@ -9,6 +9,21 @@ class Shape {
     }
 }
 
+
+//实验
+class Shape1{
+    var numberOfSides = 0
+    let name = "Shape1"
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides"
+    }
+    
+}
+
+let shape1 = Shape1()
+shape1.name
+shape1.numberOfSides = 3
+shape1.simpleDescription()
 //: - Experiment:
 //: Add a constant property with `let`, and add another method that takes an argument.
 //:
@@ -62,6 +77,34 @@ let test = Square(sideLength: 5.2, name: "my test square")
 test.area()
 test.simpleDescription()
 
+
+//实验
+class Circle:NamedShape{
+    
+    var radius:Double
+    
+    init(radius:Double,name:String){
+        
+        self.radius = radius
+        super.init(name: name)
+
+    }
+
+    func area() -> Double{
+        
+        return radius * radius * Double.pi
+    }
+    
+    override func simpleDescription() -> String {
+        return "this is a circle"
+    }
+    
+    
+}
+
+let circle = Circle(radius: 5, name: "MyCircle")
+circle.area()
+circle.simpleDescription()
 //: - Experiment:
 //: Make another subclass of `NamedShape` called `Circle` that takes a radius and a name as arguments to its initializer. Implement an `area()` and a `simpleDescription()` method on the `Circle` class.
 //:
@@ -83,6 +126,7 @@ class EquilateralTriangle: NamedShape {
         set {
             sideLength = newValue / 3.0
         }
+
     }
 
     override func simpleDescription() -> String {
