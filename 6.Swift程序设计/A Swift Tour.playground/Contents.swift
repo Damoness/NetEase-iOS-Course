@@ -53,3 +53,11 @@ let rank = Rank(rawValue: 2)
 //枚举的关联值是实际值，并不是原始值的另一种表达方法。实际上，如果没有比较有意义的原始值，你就不需要提供原始值。
 
 
+
+let numbers = [20, 11, 70, 67]
+
+numbers.sorted(by: { s1, s2 in s1 < s2 })
+//numbers.sorted(by: { (s1: String, s2 : String) -> Bool in return s1 < s2 })
+numbers.sorted(by: { $0 < $1 })
+
+numbers.sorted { $0 < $1 }

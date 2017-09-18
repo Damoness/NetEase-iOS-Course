@@ -42,3 +42,21 @@ func sum(numbers: Int...) -> Int {
 }
 
 sum(numbers: 1,2)
+
+
+
+let galaxy = "Milky Way 🐮 你好"
+for char in galaxy {
+    print(char)
+}
+
+galaxy.count       // 11
+galaxy.isEmpty     // false
+galaxy.dropFirst() // "ilky Way 🐮"
+String(galaxy.reversed()) // "🐮 yaW ykliM"
+
+// Filter out any none ASCII characters
+galaxy.filter { char in
+    let isASCII = char.unicodeScalars.reduce(true, { $0 && $1.isASCII })
+    return isASCII
+} // "
