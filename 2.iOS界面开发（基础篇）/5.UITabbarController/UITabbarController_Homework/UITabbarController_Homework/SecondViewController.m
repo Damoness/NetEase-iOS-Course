@@ -25,6 +25,7 @@
     [label sizeToFit];
     label.center = CGPointMake(UIScreen.mainScreen.bounds.size.width/2, UIScreen.mainScreen.bounds.size.height/2);
     
+    
     [self.view addSubview:label];
 }
 

@@ -184,7 +184,9 @@
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = DM75VG4BJ5;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -269,12 +271,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = DM75VG4BJ5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "NavBar-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = NavBar;
+				PROVISIONING_PROFILE = "3db6f610-b1f5-4802-83cc-04f327fd9693";
+				PROVISIONING_PROFILE_SPECIFIER = "*-Development";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
@@ -286,10 +293,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DM75VG4BJ5;
 				INFOPLIST_FILE = "NavBar-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = NavBar;
+				PROVISIONING_PROFILE = "3db6f610-b1f5-4802-83cc-04f327fd9693";
+				PROVISIONING_PROFILE_SPECIFIER = "*-Development";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;

@@ -20,11 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navStatistic = [[NavStatistic alloc] init];
-    self.navigationController.delegate = self.navStatistic;
-    
     
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navStatistic = [NavStatistic new];
+    
+    self.navigationController.delegate = self.navStatistic;
 }
 
 - (void)didReceiveMemoryWarning {

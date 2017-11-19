@@ -30,9 +30,6 @@
         if (self.currentPage) {
             NSLog(@"首次展示页面：%@ 来自 %@", NSStringFromClass([viewController class]), NSStringFromClass([self.currentPage class]));
         }
-        else {
-            NSLog(@"首次展示页面：%@", NSStringFromClass([viewController class]));
-        }
     }
     if (self.currentPage) {
         NSTimeInterval currentTime = [[NSDate date] timeIntervalSince1970];

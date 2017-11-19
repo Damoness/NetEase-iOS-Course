@@ -70,7 +70,7 @@ class MainViewController: UITableViewController, UIActionSheetDelegate {
         
         // use the same style as the nav bar
         styleSheet.actionSheetStyle = UIActionSheetStyle(rawValue: self.navigationController!.navigationBar.barStyle.rawValue)!
-        
+
         styleSheet.show(in: view)
     }
 }

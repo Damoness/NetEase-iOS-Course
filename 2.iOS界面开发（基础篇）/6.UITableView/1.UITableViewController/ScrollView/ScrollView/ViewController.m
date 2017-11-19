@@ -52,8 +52,13 @@
     self.scrollView.scrollIndicatorInsets = UIEdgeInsetsMake(80, 0, 0, 0);
     
     self.scrollView.scrollsToTop = YES;
-//    self.scrollView.maximumZoomScale = 5;
-//    self.scrollView.zoomScale = 5;
+    self.scrollView.maximumZoomScale = 5;
+    self.scrollView.zoomScale = 1;
+}
+
+- (nullable UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.subView1;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -84,9 +89,11 @@
     [self.scrollView setContentOffset:CGPointMake(0, 30) animated:YES];
 }
 
-- (nullable UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
-{
-    return self.subView1;
+
+
+-(void)scrollViewDidZoom:(UIScrollView *)scrollView{
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
